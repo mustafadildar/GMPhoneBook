@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddContact">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:text="GM PhoneBook"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        />
+
+<!--  <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/add_contact"/>-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/yellow1"
+        android:hint="Enter First Name"
+        android:textColorHint="@color/black"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:textSize="23dp"
+        android:id="@+id/add_fname"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/yellow1"
+        android:hint="Enter Last Name"
+        android:textColorHint="@color/black"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:textSize="23dp"
+        android:id="@+id/add_lname"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/yellow1"
+        android:hint="Enter Phone Number"
+        android:textColorHint="@color/black"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:textSize="23dp"
+        android:id="@+id/add_fone"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/yellow1"
+        android:hint="Enter Email Address"
+        android:textColorHint="@color/black"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:textSize="23dp"
+        android:id="@+id/add_email"
+        />
+    <Button
+        android:id="@+id/btn_add_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:fontFamily="sans-serif"
+        android:text="Add to Contacts"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold" />
+</LinearLayout>
